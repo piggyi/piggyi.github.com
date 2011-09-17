@@ -1,0 +1,32 @@
+---
+layout: post
+title: 第n次复活
+category: sitelog
+---
+
+h3. piggyi.com注册了两年，复活三次...
+
+之前始终没能坚持写博客， 玩了两年wordpress， 始终没有如预期中认真折腾折腾， 甚是惭愧。 七月， 离开成都到杭州， 失恋， 和朋友一起创业， 外加大四快毕业了， 仿佛被流放一般的感受， 认真审视了下自己， 看到太多的惰性和无知， 也反省了这三年在<a href="http://www.dreamfly.org" target="_blank">团队</a>的种种行为， 颇有感触。
+
+
+
+AS3语法高亮测试：
+
+{% highlight as %}
+package 
+{
+	import flash.display.Sprite;
+	
+	/**
+	 * 
+	 * @author	Piggyi
+	 */
+	public class Main extends Sprite
+	{
+		public function Main() {
+			trace("Let's have a real life!");
+		}
+	}
+}
+
+{% endhighlight %}
