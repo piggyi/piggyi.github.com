@@ -6,9 +6,9 @@ category: sitelog
 
 h3. piggyi.com注册了两年，复活三次...
 
-之前始终没能坚持写博客， 玩了两年wordpress， 始终没有如预期中认真折腾折腾， 甚是惭愧。 七月， 离开成都到杭州， 失恋， 和朋友一起创业， 外加大四快毕业了， 仿佛被流放一般的感受， 认真审视了下自己， 看到太多的惰性和无知， 也反省了这三年在<a href="http://www.dreamfly.org" target="_blank">团队</a>的种种行为， 颇有感触。
+之前始终没能坚持写博客， 玩了两年wordpress， 始终没有如预期中认真折腾折腾， 甚是惭愧。七月， 离开成都到杭州， 失恋， 推了百度的实习， 和朋友一起创业， 外加大四快毕业了， 仿佛被流放一般的感受， 认真审视了下自己， 看到太多的惰性和无知， 也反省了这三年在<a href="http://www.dreamfly.org" target="_blank">团队</a>的种种行为， 颇有感触。
 
-
+认真想想， 这几年也不是无事可做， 只是大多时候流于形式， 很多感兴趣的事情没有推进下来， 比如wikipic， 比如dfwInner......如今离开学校和<a href="http://www.dreamfly.org" target="_blank">团队</a>， 开始怀念随心所欲的任性日子， 不用像消防员一样到处救火改bug， 不用考虑产品有没有市场， 不用担忧运营策略是否完备， 仅仅因为某个点子好玩， 就能有十几号兄弟一起通宵工作， 我想， 这样的日子真的是一去不复返了。
 
 AS3语法高亮测试：
 
@@ -19,7 +19,7 @@ package
 	
 	/**
 	 * 
-	 * @author	Piggyi
+	 * @author Piggyi
 	 */
 	public class Main extends Sprite
 	{
