@@ -37,7 +37,7 @@ html {
 body {
 	-moz-background-size:100% auto;
 	background-attachment:fixed;
-	background-color:#666;
+	background-color:#BBBBBB;
 	/*background-image:url("../images/background.jpg");*/
 	background-position:center center;
 	font-family:"Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -62,7 +62,7 @@ span#beans {
 	color:#72BF44;
 }
 a:hover, a:hover span#eighty, a:hover span#beans {
-	color:#444444;
+	color:#CCCCCC;
 }
 h1 a:hover {
 	color:#ddd;
@@ -260,7 +260,7 @@ pre {
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-moz-box-shadow:0 -1px 0 #444444;
-	background-color:#222222;
+	background-color:#555555;
 	color:#FFFFFF;
 	font-size:13px;
 	margin:0 0 0 -40px;
@@ -399,7 +399,8 @@ span.balloon {
 #logo h1 a{
 	font-weight:bold;
 	font-size:35px;
-	color:#fff;
+	color:#4477AA;
+	text-shadow: 1px 1px #CCCCCC;
 	letter-spacing:3px;
 }
 
