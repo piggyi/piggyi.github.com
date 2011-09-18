@@ -1,13 +1,68 @@
----
-layout: default
-title: Piggyi之三次元
----
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>Piggyi之三次元</title>
+		<meta name="robots" content="follow,index" />
+		<meta name="keywords" content="Adobe,RIA,Flash,Flex,AIR,AS3,ActionScript,Flash Game,Flash Media Server,Piggyi" />
+        <meta name="description" content="Piggyi的博客站点，聊聊技术，谈谈理想，偶尔发发牢骚。"/>
+		<meta name="author" content="Piggyi" />
+        <meta name="copyright" content="Piggyi之三次元" />
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
 
-<ul class="posts">
-		{% for post in site.posts %}
-		<li><p class="date" cate="{{ post.categories }}">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
+	</head>
+
+	<body>
+		<div id="logo">
+			<h1><a href="/">Piggyi之三次元</a></h1>
+		</div>
+		<div id="wrapper">
+			<div id="content" class="index">
+				<div id="sidebar">
+					<ul>
+					<!--
+						<li>
+							<a href="#">ARTICLES</a>
+							<ul>
+								
+								<li><a href="/sitelog.html"> sitelog</a></li>
+								
+							</ul>
+						</li>
+					-->
+						<li><a href="/index.html">Post</a></li>
+						<li><a href="/about.html">About</a></li>
+						<li><a href="/links.html">Link</a></li>
+					</ul>
+				</div>
+				
+				<div id="main">
+				<ul class="posts">
+		
+		<li><p class="date" cate="sitelog">2011-09-17</p> <a href="/sitelog/2011/09/17/restart.html">第n次复活</a></li>
+		
 </ul>
 
 </div>
 <!--<p style="border-top:1px solid #bbb; margin:20px -20px"></p>-->
+
+				</div>
+
+				<div id="footer">
+					<div id="feed">
+						<div class="badget" id="feedburner">
+							<a href="http://feed.feedsky.com/piggyi">
+								<span class="service">rss</span>
+							</a>
+						</div>
+					</div>
+					<p style="clear:both"></p>
+				</div>
+
+			</div>
+
+        </div>
+	</body>
+</html>
+
