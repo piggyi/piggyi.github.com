@@ -39,8 +39,9 @@
 				
 				<div id="main">
 				<ul class="posts">
-		
-		<li><p class="date" cate="sitelog">2011-09-17</p> <a href="/sitelog/2011/09/17/restart.html">第n次复活</a></li>
+		{% for post in site.posts %}
+		<li><p class="date" cate="{{ post.categories }}">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
 		
 </ul>
 
