@@ -7,7 +7,7 @@ category: sitelog
 h3. vim里操蛋的fileformat
 
 经常从网上down到别人的代码来看，用windows各种IDE写的源码文件的换行符通常是dos换行符，也就是CRLF，这样的源码在vim下看到就是一堆堆的^M，但是其实它还不是真正的字符"^M"，而是dos换行符在vim下显示的一堆乱码，所以为了方便，就在.vimrc里把fileformat设置成了mac,unix,dos，也就是这样：
-{% highlight as%}
+{% highlight no%}
 set fileformat=unix,dos,mac
 {% endhighlight %}
 结果前几天闲着没事down一个wiki站点的mirror，开始写好久没写的bash脚本，突然发现随便写点什么都运行不了，提示各种command not found，经过各种尝试之后无果，最后无意之间看到一种错误其中包含一个\r，好像瞬间明白了什么的样子，把fileformat改回unix,dos,mac立马就可以修复原状，bash又跑的随心所欲了，结论：坑爹的fileformat。

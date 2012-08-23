@@ -16,7 +16,7 @@ h3. piggyi.com注册了两年，复活三次...
 
 顺便测试下AS3语法高亮：
 
-{% highlight %}
+{% highlight as%}
 package 
 {
 	import flash.display.Sprite;
